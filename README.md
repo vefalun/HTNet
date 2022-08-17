@@ -1,6 +1,6 @@
 # HTFormer: Human Topology Aware Transformer for 3D Human Pose Estimation
 
-<p align="center"><img src="figure/structure.png" width="100%" alt="" /></p>
+<p align="center"><img src="structure.png" width="100%" alt="" /></p>
 
 > [**HTFormer: Human Topology Aware Transformer for 3D Human Pose Estimation**](https:),            
 > Jialun Cai, Hong Liu, Wenhao Li, Jianbing Wu, Miaoju Ban, Runwei Ding        
