@@ -1,6 +1,6 @@
 # HTNet: Human Topology Aware Network for 3D Human Pose Estimation
 
-<p align="center"><img src="structure.png" width="100%" alt="" /></p>
+<p align="center"><img src="figure/structure.png" width="100%" alt="" /></p>
 
 > [**HTNet: Human Topology Aware Network for 3D Human Pose Estimation**](https:),            
 > Jialun Cai, Hong Liu, Runwei Ding , Wenhao Li, Jianbing Wu, Miaoju Ban  
@@ -15,8 +15,8 @@ Protocol 1 (mean per-joint position error) when 2D keypoints detected by CPN and
 |:-------|:-------:|:-------:|:-------:|
 | GraFormer |      50 |  51.8 mm | 35.2 mm |
 | MGCN (w refine)| 50 |  49.4 mm |  33.5 mm | 37.4 mm |
-| HTNet          | 15 |  **48.9 mm** |**32.7 mm **|
-| HTNet (w refine) | 15 |  **47.6 mm** |**31.9 mm **|
+| HTNet          | 15 |  48.9 mm |32.7 mm|
+| HTNet (w refine) | 15 |  **47.6 mm** |**31.9 mm**|
 
 
 ## Quick start
