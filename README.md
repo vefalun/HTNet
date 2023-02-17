@@ -36,8 +36,8 @@ To get started as quickly as possible, follow the instructions in this section. 
 
 ### Dependencies
 Make sure you have the following dependencies installed before proceeding:
-- Python 3.7+ (3.10+ better)
-- PyTorch >= 1.7.0
+- Python 3.7+ 
+- PyTorch >= 1.10.0
 To setup the environment:
 ```sh
 pip install -r requirement.txt
