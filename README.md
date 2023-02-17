@@ -16,7 +16,18 @@ Protocol 1 (mean per-joint position error) when 2D keypoints detected by CPN and
 | GraFormer |      50 |  51.8 mm | 35.2 mm |
 | MGCN (w/refine)| 50 |  49.4 mm |  33.5 mm | 37.4 mm |
 | HTNet          | 15 |  48.9 mm |34.0 mm|
-| HTNet (w/refine) | 15 |  **47.6 mm** |**31.9 mm**|
+| HTNet (w/refine) | **15** |  **47.6 mm** |**31.9 mm**|
+
+
+## Get started directly
+Special thanks to [MHFormer](https://github.com/Vegetebird/MHFormer), we have completed a beginner's guide for image-based pose estimation. 
+Only two steps that poses can be generated for your own images:(1) Download pretrained models (Yolov3 and HRNet) here and put them  in the './demo/lib/checkpoint'; (2) 
+Put your own images in the './demo/figure', and run:
+```
+python demo/vis.py
+```
+Then you can obtain the visualized pose in the "./demo/output", like:
+
 
 
 ## Quick start
@@ -47,8 +58,7 @@ ${POSE_ROOT}/
 ### Evaluating our pre-trained models
 To achieve the performance in the paper, run:
 ```
-python main.py --reload --previous_dir "cpn"
-python main.py --reload --previous_dir "gt" -k gt 
+python main.py --reload --previous_dir "cpn" 
 ```
 
 ### Training your models
@@ -57,12 +67,6 @@ If you want to train your own model, run:
 python main.py --train -n "your_model_name"
 ```
 
-
-## Get started directly
-If you want to train your own model, run:
-```
-python main.py --train 
-```
 
 ## Acknowledgement
 
