@@ -20,7 +20,7 @@ Protocol 1 (mean per-joint position error) when 2D keypoints detected by CPN and
 
 
 ## Get started directly
-Special thanks to [MHFormer](https://github.com/Vegetebird/MHFormer), we have completed a beginner's guide for image-based pose estimation. 
+Special thanks to [MHFormer](https://github.com/Vegetebird/MHFormer), we have completed a **beginner's guide** for image-based pose estimation. 
 Only two steps that poses can be generated for your own images:(1) Download pretrained models (Yolov3 and HRNet) [here](https://drive.google.com/drive/folders/1LX5zhZGlZjckgfpNroWsuu84xyyFYE5X) and put them  in the './demo/lib/checkpoint'; (2) 
 Put your own images in the './demo/figure', and run:
 ```
