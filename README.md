@@ -27,7 +27,7 @@ Put your own images in the './demo/figure', and run:
 python demo/vis.py
 ```
 Then you can obtain the visualized pose in the "./demo/output", like:
-
+<p align="center"><img src="figure/messi_pose.png" width="100%" alt="" /></p>
 
 
 ## Quick start
