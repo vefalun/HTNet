@@ -36,7 +36,7 @@ To get started as quickly as possible, follow the instructions in this section. 
 
 ### Dependencies
 Make sure you have the following dependencies installed before proceeding:
-- Python 3.7+
+- Python 3.7+ (3.10+ better)
 - PyTorch >= 1.7.0
 To setup the environment:
 ```sh
@@ -56,7 +56,7 @@ ${POSE_ROOT}/
 ```
 
 ### Evaluating our pre-trained models
-The pretrained model is [here](https://drive.google.com/drive/folders/134lqqu-0I6aOYr7lRufa6fMTdqm7K9Qk), please download it and put it in the './checkpoint/pretrained' directory. To achieve the performance in the paper, run:
+The pretrained model is [here](https://drive.google.com/drive/folders/134lqqu-0I6aOYr7lRufa6fMTdqm7K9Qk), please download it and put it in the './ckpt' directory. To achieve the performance in the paper, run:
 ```
 python main.py --reload --previous_dir "cpn" 
 ```
