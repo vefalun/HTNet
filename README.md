@@ -21,13 +21,13 @@ Protocol 1 (mean per-joint position error) when 2D keypoints detected by CPN and
 
 ## Get started directly
 Special thanks to [MHFormer](https://github.com/Vegetebird/MHFormer), we have completed a beginner's guide for image-based pose estimation. 
-Only two steps that poses can be generated for your own images:(1) Download pretrained models (Yolov3 and HRNet) here and put them  in the './demo/lib/checkpoint'; (2) 
+Only two steps that poses can be generated for your own images:(1) Download pretrained models (Yolov3 and HRNet) [here](https://drive.google.com/drive/folders/1LX5zhZGlZjckgfpNroWsuu84xyyFYE5X) and put them  in the './demo/lib/checkpoint'; (2) 
 Put your own images in the './demo/figure', and run:
 ```
 python demo/vis.py
 ```
 Then you can obtain the visualized pose in the "./demo/output", like:
-<p align="center"><img src="figure/messi_pose.png" width="100%" alt="" /></p>
+<p align="center"><img src="figure/messi_pose.png" width="50%" alt="" /></p>
 
 
 ## Quick start
@@ -45,7 +45,7 @@ pip install -r requirement.txt
 
 
 ### Dataset setup
-Please download the dataset from [Human3.6M](http://vision.imar.ro/human3.6m/) website and refer to [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) to set up the Human3.6M dataset ('./dataset' directory). 
+Please download the dataset [here](https://drive.google.com/drive/folders/1gNs5PrcaZ6gar7IiNZPNh39T7y6aPY3g) and refer to [VideoPose3D](https://github.com/facebookresearch/VideoPose3D) to set up the Human3.6M dataset ('./dataset' directory). 
 
 ```bash
 ${POSE_ROOT}/
@@ -56,7 +56,7 @@ ${POSE_ROOT}/
 ```
 
 ### Evaluating our pre-trained models
-To achieve the performance in the paper, run:
+The pretrained model is [here](https://drive.google.com/drive/folders/134lqqu-0I6aOYr7lRufa6fMTdqm7K9Qk), please download it and put it in the './checkpoint/pretrained' directory. To achieve the performance in the paper, run:
 ```
 python main.py --reload --previous_dir "cpn" 
 ```
