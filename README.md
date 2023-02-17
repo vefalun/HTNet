@@ -14,9 +14,9 @@ Protocol 1 (mean per-joint position error) when 2D keypoints detected by CPN and
 | Method |  Train Epochs | MPJPE (CPN) | MPJPE (GT) |
 |:-------|:-------:|:-------:|:-------:|
 | GraFormer |      50 |  51.8 mm | 35.2 mm |
-| MGCN (w refine)| 50 |  49.4 mm |  33.5 mm | 37.4 mm |
-| HTNet          | 15 |  48.9 mm |32.7 mm|
-| HTNet (w refine) | 15 |  **47.6 mm** |**31.9 mm**|
+| MGCN (w/refine)| 50 |  49.4 mm |  33.5 mm | 37.4 mm |
+| HTNet          | 15 |  48.9 mm |34.0 mm|
+| HTNet (w/refine) | 15 |  **47.6 mm** |**31.9 mm**|
 
 
 ## Quick start
@@ -25,7 +25,7 @@ To get started as quickly as possible, follow the instructions in this section. 
 
 ### Dependencies
 Make sure you have the following dependencies installed before proceeding:
-- Python 3+
+- Python 3.7+
 - PyTorch >= 1.7.0
 To setup the environment:
 ```sh
@@ -47,15 +47,22 @@ ${POSE_ROOT}/
 ### Evaluating our pre-trained models
 To achieve the performance in the paper, run:
 ```
-python main.py --train 
+python main.py --reload --previous_dir "cpn"
+python main.py --reload --previous_dir "gt" -k gt 
 ```
 
 ### Training your models
 If you want to train your own model, run:
 ```
-python main.py --train 
+python main.py --train -n "your_model_name"
 ```
 
+
+## Get started directly
+If you want to train your own model, run:
+```
+python main.py --train 
+```
 
 ## Acknowledgement
 
