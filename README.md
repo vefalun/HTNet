@@ -2,7 +2,7 @@
 
 <p align="center"><img src="figure/structure.png" width="100%" alt="" /></p>
 
-> [**HTNet: Human Topology Aware Network for 3D Human Pose Estimation**](https:),            
+> [**HTNet: Human Topology Aware Network for 3D Human Pose Estimation**](https://arxiv.org/pdf/2302.09790),            
 > Jialun Cai, Hong Liu, Runwei Ding , Wenhao Li, Jianbing Wu, Miaoju Ban  
 > *In IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2023*
 
