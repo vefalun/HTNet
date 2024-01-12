@@ -121,6 +121,7 @@ def get_pose3D(figure_path, output_dir, file_name):
 
     ## 3D
     img = cv2.imread(figure_path)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     img_size = img.shape
     input_2D_no = keypoints[:,0,:,:]
 
