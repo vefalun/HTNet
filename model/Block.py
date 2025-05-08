@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 
 from timm.data import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
-from timm.models.layers import DropPath
+from timm.layers import DropPath
 from model.GCN_conv import ModulatedGraphConv
 from model.Transformer import Attention, Mlp
 

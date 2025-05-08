@@ -160,7 +160,7 @@ class Fusion(data.Dataset):  #crop:0, downsample:0  pad:0    stride:1
         bb_box = np.array([0, 0, 1, 1])
         input_2D_update = input_2D
 
-        scale = np.float(1.0)
+        scale = float(1.0)
 
         return cam, gt_3D, input_2D_update, action, subject, scale, bb_box, cam_ind
 

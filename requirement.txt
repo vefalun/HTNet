@@ -4,3 +4,8 @@ tensorboardX
 scipy
 filterpy
 tqdm
+yacs
+opencv-python
+numba
+scikit-image
+IPython
