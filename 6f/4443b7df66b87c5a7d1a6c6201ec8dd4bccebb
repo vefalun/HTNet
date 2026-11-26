@@ -1,0 +1,19 @@
+README.md
+  s_7a9b54574c78b6::t_1eced4558193ac 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6f4443b7df66b87c5a7d1a6c6201ec8dd4bccebb",
+  "prompts": {},
+  "sessions": {
+    "s_7a9b54574c78b6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1c9dc-dc9b-7cf0-b4c0-bc007e0e1971",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "jialun cai <jialuncai@cjl-mac.local>"
+    }
+  }
+}
